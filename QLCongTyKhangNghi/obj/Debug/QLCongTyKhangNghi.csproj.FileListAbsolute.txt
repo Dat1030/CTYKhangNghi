@@ -17,3 +17,8 @@ E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTy.6F4
 E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTyKhangNghi.FrmQLNhanVien.resources
 E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTyKhangNghi.FrmQLKhachHang.resources
 E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTyKhangNghi.FrmQLSanPham.resources
+E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTyKhangNghi.FrmQLDichVu.resources
+E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTyKhangNghi.FrmDatLaiMK.resources
+E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTyKhangNghi.FrmDoiMatKhau.resources
+E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTyKhangNghi.FrmQLTonKho.resources
+E:\Do An Chuyen Nganh\QLCongTyKhangNghi\QLCongTyKhangNghi\obj\Debug\QLCongTyKhangNghi.FrmQLLichLamViec.resources

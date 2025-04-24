@@ -82,11 +82,11 @@
             this.lblTieuDe.AutoSize = true;
             this.lblTieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblTieuDe.ForeColor = System.Drawing.Color.Gainsboro;
-            this.lblTieuDe.Location = new System.Drawing.Point(58, 40);
+            this.lblTieuDe.Location = new System.Drawing.Point(59, 46);
             this.lblTieuDe.Name = "lblTieuDe";
-            this.lblTieuDe.Size = new System.Drawing.Size(404, 38);
+            this.lblTieuDe.Size = new System.Drawing.Size(398, 38);
             this.lblTieuDe.TabIndex = 0;
-            this.lblTieuDe.Text = "CÔNG TY KHANG NGHỊ";
+            this.lblTieuDe.Text = "Chào mừng Nhân Viên A";
             this.lblTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelLogo
@@ -159,6 +159,7 @@
             this.btnQLDichVu.Text = "Quản lý dịch vụ";
             this.btnQLDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLDichVu.UseVisualStyleBackColor = true;
+            this.btnQLDichVu.Click += new System.EventHandler(this.btnQLDichVu_Click);
             // 
             // btnQLSanPham
             // 
@@ -246,6 +247,7 @@
             this.btnDangXuat.Text = "Đăng Xuất";
             this.btnDangXuat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDangXuat.UseVisualStyleBackColor = true;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
             // btnDoiMatKhau
             // 
@@ -262,6 +264,7 @@
             this.btnDoiMatKhau.Text = "Đổi Mật Khẩu";
             this.btnDoiMatKhau.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDoiMatKhau.UseVisualStyleBackColor = true;
+            this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
             // 
             // btnThongKe
             // 
@@ -326,6 +329,7 @@
             this.btnLichLamViec.Text = "Quản lý lịch làm việc";
             this.btnLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLichLamViec.UseVisualStyleBackColor = true;
+            this.btnLichLamViec.Click += new System.EventHandler(this.btnLichLamViec_Click);
             // 
             // btnTonKho
             // 
@@ -342,6 +346,7 @@
             this.btnTonKho.Text = "Quản lý tồn kho";
             this.btnTonKho.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTonKho.UseVisualStyleBackColor = true;
+            this.btnTonKho.Click += new System.EventHandler(this.btnTonKho_Click);
             // 
             // picLogo
             // 

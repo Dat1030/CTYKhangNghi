@@ -217,9 +217,9 @@
             this.label1.ForeColor = System.Drawing.Color.Gainsboro;
             this.label1.Location = new System.Drawing.Point(54, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(404, 38);
+            this.label1.Size = new System.Drawing.Size(387, 38);
             this.label1.TabIndex = 1;
-            this.label1.Text = "CÔNG TY KHANG NGHỊ";
+            this.label1.Text = "Chào mừng nhân viên A";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelBody

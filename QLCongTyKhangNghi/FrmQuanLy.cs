@@ -69,22 +69,48 @@ namespace QLCongTyKhangNghi
         private void btnQLSanPham_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FrmQLSanPham());
-            lblTieuDe.Text = btnQLSanPham.Text;
             hideSubMenu();
         }
 
         private void btnQLNhanVien_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FrmQLNhanVien());
-            lblTieuDe.Text = btnQLNhanVien.Text;
             hideSubMenu();
         }
 
         private void btnQLKhachHang_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FrmQLKhachHang());
-            lblTieuDe.Text = btnQLKhachHang_Click.Text;
             hideSubMenu();
+        }
+
+        private void btnQLDichVu_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmQLDichVu());
+            hideSubMenu();
+        }
+
+        private void btnTonKho_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmQLTonKho());
+        }
+
+        private void btnLichLamViec_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmQLLichLamViec());
+           
+        }
+
+        private void btnDoiMatKhau_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmDoiMatKhau());
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            //Form f1 = new FrmDoiMatKhau();
+            //f1.Show();
         }
     }
 }   

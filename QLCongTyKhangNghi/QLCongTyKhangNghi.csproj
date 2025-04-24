@@ -55,6 +55,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmDatLaiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDatLaiMK.Designer.cs">
+      <DependentUpon>FrmDatLaiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoiMatKhau.Designer.cs">
+      <DependentUpon>FrmDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLapHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLapHopDong.Designer.cs">
+      <DependentUpon>FrmLapHopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLDichVu.Designer.cs">
+      <DependentUpon>FrmQLDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLLichLamViec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLLichLamViec.Designer.cs">
+      <DependentUpon>FrmQLLichLamViec.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmQLNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +102,12 @@
     </Compile>
     <Compile Include="FrmQLSanPham.Designer.cs">
       <DependentUpon>FrmQLSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLTonKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLTonKho.Designer.cs">
+      <DependentUpon>FrmQLTonKho.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmQTV.cs">
       <SubType>Form</SubType>
@@ -93,17 +129,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmDatLaiMK.resx">
+      <DependentUpon>FrmDatLaiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDoiMatKhau.resx">
+      <DependentUpon>FrmDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmNhanVien.resx">
       <DependentUpon>FrmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLDichVu.resx">
+      <DependentUpon>FrmQLDichVu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmQLKhachHang.resx">
       <DependentUpon>FrmQLKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLLichLamViec.resx">
+      <DependentUpon>FrmQLLichLamViec.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmQLNhanVien.resx">
       <DependentUpon>FrmQLNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmQLSanPham.resx">
       <DependentUpon>FrmQLSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLTonKho.resx">
+      <DependentUpon>FrmQLTonKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmQTV.resx">
       <DependentUpon>FrmQTV.cs</DependentUpon>
